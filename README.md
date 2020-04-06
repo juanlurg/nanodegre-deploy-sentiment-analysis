@@ -1,5 +1,29 @@
 # SageMaker Deployment Project
 
-The notebook and Python files provided here, once completed, result in a simple web app which interacts with a deployed recurrent neural network performing sentiment analysis on movie reviews. This project assumes some familiarity with SageMaker, the mini-project, Sentiment Analysis using XGBoost, should provide enough background.
+This is the first project of Udacity's Machine Learning Engineer Nanodegree, we are using Pytorch to develop a neural network to predict if movie reviews are positive or negative using historical IMDB reviews dataset.
 
-Please see the [README](https://github.com/udacity/sagemaker-deployment/tree/master/README.md) in the root directory for instructions on setting up a SageMaker notebook and downloading the project files (as well as the other notebooks).
+#### Project Status: Deployed
+
+## Project Intro
+
+The purpose of this project is to predict the sentiment of a movie review using a neural network but also to deploy it in Amazon AWS to have an API for predictions with a web-app.
+
+### Methods used
+
+- LTSM
+- RNN
+- CountVectorizer
+- Bag of words
+- Tokenization
+
+### Technologies
+
+- Jupyter Notebook (Sagemaker Notebook Instance)
+- AWS Custom Models deployment
+- AWS Sagemaker Endpoints
+- AWS Lambda functions
+- AWS API Gateway
+
+## Notebooks
+
+- [Creating a Sentiment Analysis Web App](https://github.com/juanlurg/nanodegre-deploy-sentiment-analysis/blob/master/SageMaker%20Project.ipynb)
